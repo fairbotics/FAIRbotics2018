@@ -44,7 +44,7 @@ public class DriveTrain extends Subsystem {
     }
     
     public void fairBotTank() {
-    	driveTrain.arcadeDrive(Robot.oi.driveStick1.getY(), Robot.oi.driveStick1.getX()*-0.8);;
+    	driveTrain.arcadeDrive(Robot.oi.driveStick1.getY()*(-Robot.oi.driveStick1.getThrottle() + 1)/2, Robot.oi.driveStick1.getX()*-0.8*(-Robot.oi.driveStick1.getThrottle()+1)/2);;
     	//driveTrain.tankDrive(Robot.oi.driveStick1.getY(), Robot.oi.driveStick2.getY());
     	
 //    	As of right now (11/29/16) there is a negative value assigned to driveStick2's X value, the robot is strafing backwards this is the current fix.
@@ -53,6 +53,6 @@ public class DriveTrain extends Subsystem {
     }
     
     public void autoTank() {
-    	driveTrain.tankDrive(-0.8, -0.8, true);
+    	driveTrain.tankDrive(-0.2, -0.2, true);
     }
 }

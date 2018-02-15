@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.DriveWStick"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.Button"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.JoystickButton"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.ElevatorDown"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.ElevatorStop"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.DigitalInput"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Counter"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.CameraServer"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.autoCommand"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.subsystems.DriveTrain"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.AutoCommand"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.AutoGroup"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Timer"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.ElevatorUp"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.RobotMap"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Talon"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Subsystem"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.subsystems.Elevator"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.Robot"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive.MotorType"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.AutonomousDriveClass"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.OI"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.smartdashboard.SmartDashboard"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Victor"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.SolenoidBase"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Solenoid"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.subsystems.PneumaticSafety"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.GripperOn"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.GripperOff"/>
+<fullyQualifiedTypeName name="edu.wpi.cscore.UsbCamera"/>
+</qualifiedTypeNameHistroy>

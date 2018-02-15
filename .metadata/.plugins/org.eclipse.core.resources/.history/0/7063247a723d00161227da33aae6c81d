@@ -1,0 +1,59 @@
+package org.usfirst.frc.team5340.robot.subsystems;
+
+//import org.usfirst.frc.team5340.robot.Robot;
+import org.usfirst.frc.team5340.robot.RobotMap;
+import edu.wpi.first.wpilibj.*;
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+
+
+public class BallSub extends Subsystem {
+	private Talon ballMotor;
+	private Talon ballLift;
+	//private DigitalInput ballLimit;
+	
+	
+	public BallSub(){
+		ballMotor = new Talon(RobotMap.ballMotorPort);
+		ballLift = new Talon(RobotMap.ballLiftPort);
+		//ballLimit = new DigitalInput(RobotMap.ballLimitPort);
+	}
+    
+    // Put methods for controlling this subsystem
+    // here. Call these from Commands.
+	
+	public void ballMotorIn(){
+		ballMotor.set(1);
+	}
+	
+	public void ballMotorOut(){
+		ballMotor.set(-1);
+	}
+	
+	public void ballMotorOff(){
+		ballMotor.set(0);
+	}
+	
+	public void ballLiftUp(){
+		ballLift.set(1);
+	}
+	
+	public void ballLiftDown(){
+		ballLift.set(-1);
+	}
+
+	public void ballLiftOff(){
+		ballLift.set(0);
+	}
+	
+	public boolean isBallLoaded(){
+		//return !ballLimit.get();
+		return false;
+	}
+
+    public void initDefaultCommand() {
+        // Set the default command for a subsystem here.
+        //setDefaultCommand(new MySpecialCommand());
+    }
+}
+

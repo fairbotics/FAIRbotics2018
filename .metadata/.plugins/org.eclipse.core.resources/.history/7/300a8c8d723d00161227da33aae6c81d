@@ -1,0 +1,50 @@
+package org.usfirst.frc.team5340.robot.subsystems;
+
+//import org.usfirst.frc.team5340.robot.OI;
+//import org.usfirst.frc.team5340.robot.Robot;
+import org.usfirst.frc.team5340.robot.RobotMap;
+import org.usfirst.frc.team5340.robot.commands.TeleopDriveClass;
+import edu.wpi.first.wpilibj.RobotDrive;
+import edu.wpi.first.wpilibj.Talon;
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+/**
+ *
+ */
+public class DriveSub extends Subsystem {
+    
+    // Put methods for controlling this subsystem
+    // here. Call these from Commands.
+	
+	RobotDrive driveTrain;
+	
+	Talon driveMotor1;
+	Talon driveMotor2; 
+		
+	public DriveSub(){
+			driveMotor1 = new Talon(RobotMap.driveMotor1Port);
+			driveMotor2 = new Talon(RobotMap.driveMotor2Port);
+		
+		
+		driveTrain = new RobotDrive(driveMotor1, driveMotor2);
+//		driveTrain.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, true);
+//		driveTrain.setInvertedMotor(RobotDrive.MotorType.kFrontRight, true); //TODO test this
+	}
+
+
+    public void initDefaultCommand() {
+        // Set the default command for a subsystem here.
+        setDefaultCommand(new TeleopDriveClass());
+        
+    }
+    
+    public void driveTank(double leftSpeed, double rightSpeed) {
+    	driveTrain.tankDrive(leftSpeed, rightSpeed);
+    }
+    
+    public void driveArcade(double speed, double spin) {
+    	driveTrain.tankDrive(speed+spin, speed-spin);
+    }
+
+}
+

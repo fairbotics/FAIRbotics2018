@@ -1,0 +1,61 @@
+package org.usfirst.frc.team5340.robot.subsystems;
+
+import org.usfirst.frc.team5340.robot.RobotMap;
+
+
+import edu.wpi.first.wpilibj.DigitalInput;
+import edu.wpi.first.wpilibj.Talon;
+import edu.wpi.first.wpilibj.command.Subsystem;
+
+public class BeltSub extends Subsystem{
+	private Talon rotateBeltMotor;
+	private Talon spinBeltMotor;
+
+	DigitalInput bottomSwitch;
+	DigitalInput topSwitch;
+	
+
+	public BeltSub(){
+		rotateBeltMotor = new Talon(RobotMap.beltRotatePort);
+		spinBeltMotor = new Talon(RobotMap.beltSpinPort);
+		
+		bottomSwitch = new DigitalInput(1);
+		topSwitch = new DigitalInput(0);		
+	}
+	
+	public boolean isBottomSwitchOn(){
+		return bottomSwitch.get();
+	}
+	
+	public boolean isTopSwitchOn(){
+		return topSwitch.get();
+	}
+	
+	public void rotateDown(){
+			rotateBeltMotor.set(-0.5);
+	}
+	
+	public void rotateUp(){
+			rotateBeltMotor.set(0.5);
+	}
+	
+	public void rotateStop(){
+		rotateBeltMotor.set(0);
+	}
+	
+	public void spinForward(){
+		spinBeltMotor.set(0.5);
+	}
+	public void spinBackward(){
+		spinBeltMotor.set(-0.5);
+	}
+	
+	public void spinStop(){
+		spinBeltMotor.set(0);
+	}
+
+	@Override
+	protected void initDefaultCommand() {
+		// TODO Auto-generated method stub	
+	}
+}

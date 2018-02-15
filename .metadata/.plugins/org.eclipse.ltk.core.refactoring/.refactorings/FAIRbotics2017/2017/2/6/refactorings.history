@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;LIFT_MOTOR&apos; in &apos;org.usfirst.frc.team5340.robot.RobotMap&apos; to &apos;MAIN_PNU&apos;&#x0D;&#x0A;- Original project: &apos;FAIRbotics2017&apos;&#x0D;&#x0A;- Original element: &apos;org.usfirst.frc.team5340.robot.RobotMap.LIFT_MOTOR&apos;&#x0D;&#x0A;- Renamed element: &apos;org.usfirst.frc.team5340.robot.RobotMap.MAIN_PNU&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;LIFT_MOTOR&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;org.usfirst.frc.team5340.robot{RobotMap.java[RobotMap^LIFT_MOTOR" name="MAIN_PNU" references="true" setter="false" stamp="1486592781437" textual="false" version="1.0"/>
+</session>

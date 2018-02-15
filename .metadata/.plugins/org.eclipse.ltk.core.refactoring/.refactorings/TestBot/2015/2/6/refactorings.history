@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;org.usfirst.frc.team5340.robot.subsystems&apos; to &apos;robot5340/src&apos;&#x0D;&#x0A;- Original project: &apos;TestBot&apos;&#x0D;&#x0A;- Destination element: &apos;robot5340/src&apos;&#x0D;&#x0A;- Original element: &apos;TestBot/src/org.usfirst.frc.team5340.robot.subsystems&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=robot5340/src" element1="/src&lt;org.usfirst.frc.team5340.robot.subsystems" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1423342691635" version="1.0"/>
+</session>
