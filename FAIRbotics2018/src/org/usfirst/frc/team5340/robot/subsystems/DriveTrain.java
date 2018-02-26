@@ -23,6 +23,8 @@ public class DriveTrain extends Subsystem {
     Victor rightMotor;
     OI joysticks;
     
+    double driveSpeed = 1;
+    double turnSpeed = 0.6;
     
     public DriveTrain(){
     	if(RobotMap.usingFourMotors){
@@ -31,7 +33,7 @@ public class DriveTrain extends Subsystem {
     	else{
     	leftMotor = new Victor(RobotMap.LEFT_MOTOR);
     	rightMotor = new Victor(RobotMap.RIGHT_MOTOR);
-    	driveTrain = new RobotDrive(leftMotor, rightMotor);
+    	driveTrain = new RobotDrive(rightMotor, leftMotor);
     	//driveTrain.setInvertedMotor(RobotDrive.MotorType.kFrontRight, true);
     	//driveTrain.setInvertedMotor(RobotDrive.MotorType.kFrontLeft, true);
     	}
@@ -44,7 +46,8 @@ public class DriveTrain extends Subsystem {
     }
     
     public void fairBotTank() {
-    	driveTrain.arcadeDrive(Robot.oi.driveStick1.getY()*(-Robot.oi.driveStick1.getThrottle() + 1)/2, Robot.oi.driveStick1.getX()*-0.8*(-Robot.oi.driveStick1.getThrottle()+1)/2);;
+    	
+    	driveTrain.arcadeDrive(Robot.oi.driveStick1.getY()*(-Robot.oi.driveStick1.getThrottle() + 1)/2 * driveSpeed, Robot.oi.driveStick1.getX()*-turnSpeed*(-Robot.oi.driveStick1.getThrottle()+1)/2);
     	//driveTrain.tankDrive(Robot.oi.driveStick1.getY(), Robot.oi.driveStick2.getY());
     	
 //    	As of right now (11/29/16) there is a negative value assigned to driveStick2's X value, the robot is strafing backwards this is the current fix.

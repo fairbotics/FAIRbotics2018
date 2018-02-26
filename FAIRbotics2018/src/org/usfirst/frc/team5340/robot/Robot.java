@@ -5,7 +5,7 @@ import org.usfirst.frc.team5340.robot.commands.AutoGroup;
 import org.usfirst.frc.team5340.robot.subsystems.DriveTrain;
 import org.usfirst.frc.team5340.robot.subsystems.Flipper;
 import org.usfirst.frc.team5340.robot.subsystems.Gripper;
-import org.usfirst.frc.team5340.robot.subsystems.Lifter;
+import org.usfirst.frc.team5340.robot.subsystems.Elevater;
 
 import edu.wpi.cscore.UsbCamera;
 import edu.wpi.first.wpilibj.CameraServer;
@@ -26,7 +26,7 @@ public class Robot extends IterativeRobot {
 	public static DriveTrain driveSub = new DriveTrain();
 	public static Flipper flipSub = new Flipper();
 	public static Gripper gripSub = new Gripper();
-	public static Lifter liftSub = new Lifter();
+	public static Elevater elevateSub = new Elevater();
     Command autonomousCommand = new AutoGroup();
 	boolean autoEnable = true;
     /**

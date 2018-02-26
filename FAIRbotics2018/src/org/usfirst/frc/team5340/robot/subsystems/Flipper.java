@@ -15,7 +15,7 @@ public class Flipper extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	
-	Solenoid flipSol = new Solenoid(RobotMap.FLIPPER_SOLENOID);
+//	Solenoid flipSol = new Solenoid(RobotMap.FLIPPER_SOLENOID);
 	DigitalInput limit1 = new DigitalInput(0);
 	DigitalInput limit2 = new DigitalInput(1);
 	Counter counter = new Counter(limit1);
@@ -39,13 +39,13 @@ public class Flipper extends Subsystem {
 		counter2.reset();
 	}
 	
-	public void FlipperUp() {
-		flipSol.set(true);
-	}
+//	public void FlipperUp() {
+//		flipSol.set(true);
+//	}
 	
-	public void FlipperDown() {
-		flipSol.set(false);
-	}
+//	public void FlipperDown() {
+//		flipSol.set(false);
+//	}
 	
 
 

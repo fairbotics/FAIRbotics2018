@@ -24,18 +24,17 @@ public class RobotMap {
 	//Motor Ports
 	public static int LEFT_MOTOR = 0;
 	public static int RIGHT_MOTOR = 1;
-	public static int LIFT_MOTOR =2;
+	public static int ELEVATE_MOTOR1 = 2;
+	public static int ELEVATE_MOTOR2 = 3;
 	
-	//Pneumatics
-	public static int FLIPPER_SOLENOID = 0;
-	public static int GRIPPER_SOLENOID = 1;
+	//DIO Ports
+	public static int ELEVATER_TOP_LIMIT = 0;
+	public static int ELEVATER_BOTTOM_LIMIT = 1;
 	
 	//Joystick Ports
 	public static final int DRIVE_STICK_PORT = 0;
-	public static final int DRIVE_STICK_PORT_2 = 1;
 
 	//Booleans
 	public static final boolean usingFourMotors = false;
-	
-	//Subsystems
+
 }

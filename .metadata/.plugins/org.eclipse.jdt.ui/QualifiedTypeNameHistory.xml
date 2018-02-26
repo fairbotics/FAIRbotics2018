@@ -23,7 +23,6 @@
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Talon"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.command.Subsystem"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.subsystems.Elevator"/>
-<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.Robot"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive.MotorType"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.AutonomousDriveClass"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.OI"/>
@@ -35,4 +34,5 @@
 <fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.GripperOn"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.commands.GripperOff"/>
 <fullyQualifiedTypeName name="edu.wpi.cscore.UsbCamera"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team5340.robot.Robot"/>
 </qualifiedTypeNameHistroy>

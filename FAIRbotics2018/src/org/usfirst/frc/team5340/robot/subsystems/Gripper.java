@@ -15,7 +15,7 @@ public class Gripper extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 	
-	Solenoid gripSol = new Solenoid(RobotMap.GRIPPER_SOLENOID);
+//	Solenoid gripSol = new Solenoid(RobotMap.GRIPPER_SOLENOID);
 	DigitalInput limit1 = new DigitalInput(2);
 	DigitalInput limit2 = new DigitalInput(3);
 	Counter counter = new Counter(limit1);
@@ -39,13 +39,13 @@ public class Gripper extends Subsystem {
 		counter2.reset();
 	}
 	
-	public void GripperOn() {
-		gripSol.set(true);
-	}
+//	public void GripperOn() {
+//		gripSol.set(true);
+//	}
 	
-	public void GripperOff() {
-		gripSol.set(false);
-	}
+//	public void GripperOff() {
+//		gripSol.set(false);
+//	}
 	
 
 

@@ -1,13 +1,5 @@
 package org.usfirst.frc.team5340.robot;
 
-import org.usfirst.frc.team5340.robot.commands.FlipperDown;
-//import org.usfirst.frc.team5340.robot.commands.ElevatorStop;
-import org.usfirst.frc.team5340.robot.commands.FlipperUp;
-import org.usfirst.frc.team5340.robot.commands.GripperOff;
-import org.usfirst.frc.team5340.robot.commands.GripperOn;
-import org.usfirst.frc.team5340.robot.commands.LiftStop;
-import org.usfirst.frc.team5340.robot.commands.LiftUp;
-
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 
@@ -44,30 +36,22 @@ public class OI {
     // button.whenReleased(new ExampleCommand());
 	
 	//Joystick
-	public Joystick driveStick1;
-	public Joystick driveStick2; 
+	public Joystick driveStick1; 
+	
 	
 	
 	public OI() {
-		driveStick2 = new Joystick(RobotMap.DRIVE_STICK_PORT);
-		driveStick1 = new Joystick(RobotMap.DRIVE_STICK_PORT_2);
+
+		driveStick1 = new Joystick(RobotMap.DRIVE_STICK_PORT);
 		
 		
-		JoystickButton raiseElevatorButton = new JoystickButton(driveStick1, 5);
-		JoystickButton lowerElevatorButton = new JoystickButton(driveStick1, 3);
-		JoystickButton raiseElevatorButton2 = new JoystickButton(driveStick1, 6);
-		JoystickButton lowerElevatorButton2 = new JoystickButton(driveStick1, 4);
-		JoystickButton liftRobotButton1 = new JoystickButton(driveStick1, 1);
-		JoystickButton liftRobotButton2 = new JoystickButton(driveStick1, 2);
+//		JoystickButton deployBlock = new JoystickButton(driveStick1, 1);
+//		JoystickButton liftRobotButton2 = new JoystickButton(driveStick1, 2);
 		
 		
-		raiseElevatorButton.whenPressed(new FlipperUp());
-		lowerElevatorButton.whenPressed(new FlipperDown());
-		raiseElevatorButton2.whenPressed(new GripperOn());
-		lowerElevatorButton2.whenPressed(new GripperOff());
-		liftRobotButton2.whenPressed(new LiftStop());
-		liftRobotButton1.whileHeld(new LiftUp());
-//		stopElevator.whenPressed(new ElevatorStop());
+		
+//		liftRobotButton1.whileHeld(new LiftUp());
+//		liftRobotButton2.whenPressed(new LiftStop());
 		
 	}
 
