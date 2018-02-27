@@ -1,0 +1,30 @@
+Open Git Bash (on taskbar on ASUS laptop)
+Type 'cd workspace'
+You are now in the directory containing the project and the git file
+Use following steps to save work using git
+Should be used after every meeting when code is changed
+
+Add All: syntax: 'git add .'
+
+Commit: syntax: 'git commit -am "commit message(see below)"'
+
+	-Write date
+		-e.x. "2/22/17;..."
+
+	-List updated functions. Use UT for untested. Use TC for tested confirmed. Use F for failed(if none, write Updated none)
+		-e.x. "Updated: Elevation System(TC), Intake System(UT);..."
+		
+	-Other notes, usually team news, non-coding related
+		-e.x. "Intake System Built;"
+		
+	-Full e.x. "2/22/17; Updated: Elevation System(TC), Intake System(UT); Intake System Built;"
+	
+	-Hit enter (will take a while)
+	
+Push to GitHub: syntax: 'git push origin master'
+
+Exit Git Bash
+
+*Optional:
+	Check GitHub repository for changes:
+	e.x. go to https://github.com/fairbotics/FAIRbotics2018

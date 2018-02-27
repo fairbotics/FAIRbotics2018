@@ -1,0 +1,14 @@
+Add All: syntax: 'git add .'
+
+Commit: syntax: 'git commit -am ""'
+
+	-Write date
+		-e.x. "2/22/17;..."
+
+	-List updated functions. Use UT for untested. Use TC for tested confirmed(if none, write Updated none)
+		-e.x. "Updated: Elevation System(TC), Intake System(UT);..."
+		
+	-Other notes (usually team news, non-coding related)
+		-e.x. "Intake System Built;"
+		
+	-Full e.x. "2/22/17; Updated: Elevation System(TC), Intake System(UT); Intake System Built;"
