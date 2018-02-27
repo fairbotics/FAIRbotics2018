@@ -22,33 +22,33 @@ public class Elevater extends Subsystem {
 	
 	public static boolean fast = false;
 	
-	static DigitalInput topLimitSwitch = new DigitalInput(RobotMap.ELEVATER_TOP_LIMIT);
-	static DigitalInput bottomLimitSwitch = new DigitalInput(RobotMap.ELEVATER_BOTTOM_LIMIT);
+//	static DigitalInput topLimitSwitch = new DigitalInput(RobotMap.ELEVATER_TOP_LIMIT);
+//	static DigitalInput bottomLimitSwitch = new DigitalInput(RobotMap.ELEVATER_BOTTOM_LIMIT);
 
 	
 	static Spark elevate1 = new Spark(RobotMap.ELEVATE_MOTOR1);
-	static Talon elevate2 = new Talon(RobotMap.ELEVATE_MOTOR2);
+//	static Talon elevate2 = new Talon(RobotMap.ELEVATE_MOTOR2);
 	
 	public static void ElevateUp(double speed){
 		
-		if(!topLimitSwitch.get()){
+//		if(!topLimitSwitch.get()){
 			elevate1.set(speed);
-			elevate2.set(speed);
-		}
+//			elevate2.set(speed);
+//		}
 		
 	}
 	public static void ElevateDown(double speed){
 		
-		if(!bottomLimitSwitch.get()){
+//		if(!bottomLimitSwitch.get()){
 			elevate1.set(-speed);
-			elevate2.set(-speed);
-		}
+//			elevate2.set(-speed);
+//		}
 		
 	}
 	public static void ElevateStop(){
 		
 		elevate1.set(0);
-		elevate2.set(0);
+//		elevate2.set(0);
 		
 	}
 

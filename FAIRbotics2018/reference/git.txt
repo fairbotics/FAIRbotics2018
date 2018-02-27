@@ -1,12 +1,12 @@
-Open Git Bash (on taskbar on ASUS laptop)
-Type 'cd workspace'
-You are now in the directory containing the project and the git file
-Use following steps to save work using git
-Should be used after every meeting when code is changed
+OPEN GIT BASH (on taskbar on ASUS laptop)
+TYPE 'cd workspace'
+You are now IN THE DIRECTORY containing the project and the git file
+Use following steps TO SAVE WORK using GIT
+Should be used after EVERY MEETING when code is changed
 
-Add All: syntax: 'git add .'
+ADD ALL: Syntax: 'git add .'
 
-Commit: syntax: 'git commit -am "commit message(see below)"'
+COMMIT: Syntax: 'git commit -am "commit message(see below)"'
 
 	-Write date
 		-e.x. "2/22/17;..."
@@ -21,9 +21,9 @@ Commit: syntax: 'git commit -am "commit message(see below)"'
 	
 	-Hit enter (will take a while)
 	
-Push to GitHub: syntax: 'git push origin master'
+PUSH TO GITHUB: Syntax: 'git push origin master'
 
-Exit Git Bash
+EXIT GIT BASH
 
 *Optional:
 	Check GitHub repository for changes:

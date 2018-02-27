@@ -4419,3 +4419,168 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:39:30.699
 !MESSAGE Updating projects
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:46:41.475
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:46:41.475
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY riolog 1 0 2018-02-27 15:47:07.177
+!MESSAGE Connected to robot at 10.53.40.86
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:47:35.475
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:47:35.475
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY riolog 1 0 2018-02-27 15:48:56.372
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 15:48:56.405
+!MESSAGE Connected to robot at 127.0.0.1
+
+!ENTRY riolog 1 0 2018-02-27 15:48:57.201
+!MESSAGE failed to send keep alive, reconnecting
+
+!ENTRY riolog 1 0 2018-02-27 15:48:57.203
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 15:48:57.226
+!MESSAGE Connected to robot at 127.0.0.1
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:49:35.643
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:49:35.643
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:54:31.327
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 15:54:31.329
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:19:10.871
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:19:10.871
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:23:56.232
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:23:56.234
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:26:42.138
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:26:42.139
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:29:11.482
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:29:11.483
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:34:46.552
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:34:46.555
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:36:34.845
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:36:34.845
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:39:11.300
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:39:11.300
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:40:36.361
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:40:36.362
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:41:18.643
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:41:18.644
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:53:08.494
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:53:08.494
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY riolog 1 0 2018-02-27 16:53:37.403
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 16:53:37.462
+!MESSAGE Connected to robot at 10.53.40.27
+
+!ENTRY riolog 1 0 2018-02-27 16:53:37.992
+!MESSAGE failed to send keep alive, reconnecting
+
+!ENTRY riolog 1 0 2018-02-27 16:53:37.992
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 16:53:37.992
+!MESSAGE Connected to robot at 10.53.40.27
+
+!ENTRY riolog 1 0 2018-02-27 16:53:43.993
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 16:53:44.008
+!MESSAGE failed to send keep alive, reconnecting
+
+!ENTRY riolog 1 0 2018-02-27 16:53:46.037
+!MESSAGE Connected to robot at 10.53.40.27
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:54:19.994
+!MESSAGE Last deploy running
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:54:19.999
+!MESSAGE Waiting
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:54:19.999
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:54:20.000
+!MESSAGE Targets: deploy, Mode: run
+
+!ENTRY riolog 1 0 2018-02-27 16:55:38.061
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 16:55:38.106
+!MESSAGE Connected to robot at 127.0.0.1
+
+!ENTRY riolog 1 0 2018-02-27 16:55:40.061
+!MESSAGE failed to send keep alive, reconnecting
+
+!ENTRY riolog 1 0 2018-02-27 16:55:40.065
+!MESSAGE socket disconnected during read
+
+!ENTRY riolog 1 0 2018-02-27 16:55:40.132
+!MESSAGE Connected to robot at 127.0.0.1
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:56:06.044
+!MESSAGE Last deploy running
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:56:06.045
+!MESSAGE Waiting
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:56:06.047
+!MESSAGE Running ant file: C:\Users\FairBotics\workspace\FAIRbotics2018\build.xml
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-02-27 16:56:06.047
+!MESSAGE Targets: deploy, Mode: run

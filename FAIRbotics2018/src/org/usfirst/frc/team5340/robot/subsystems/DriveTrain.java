@@ -5,6 +5,8 @@ import org.usfirst.frc.team5340.robot.Robot;
 import org.usfirst.frc.team5340.robot.RobotMap;
 import org.usfirst.frc.team5340.robot.commands.DriveWStick;
 
+import java.lang.Math;
+
 import edu.wpi.first.wpilibj.RobotDrive;
 import edu.wpi.first.wpilibj.Victor;
 import edu.wpi.first.wpilibj.command.Subsystem;
@@ -47,7 +49,10 @@ public class DriveTrain extends Subsystem {
     
     public void fairBotTank() {
     	
-    	driveTrain.arcadeDrive(Robot.oi.driveStick1.getY()*(-Robot.oi.driveStick1.getThrottle() + 1)/2 * driveSpeed, Robot.oi.driveStick1.getX()*-turnSpeed*(-Robot.oi.driveStick1.getThrottle()+1)/2);
+    	double forward = Math.sqrt((-Robot.oi.driveStick1.getThrottle() + 1) / 2);
+    	double turn = Math.sqrt(Math.sqrt((-Robot.oi.driveStick1.getThrottle() + 1) / 2));
+    	
+    	driveTrain.arcadeDrive(Robot.oi.driveStick1.getY() * forward * driveSpeed, Robot.oi.driveStick1.getX() * turn * -turnSpeed);
     	//driveTrain.tankDrive(Robot.oi.driveStick1.getY(), Robot.oi.driveStick2.getY());
     	
 //    	As of right now (11/29/16) there is a negative value assigned to driveStick2's X value, the robot is strafing backwards this is the current fix.
