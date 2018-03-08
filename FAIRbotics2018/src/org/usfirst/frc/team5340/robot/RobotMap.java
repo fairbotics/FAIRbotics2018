@@ -25,11 +25,12 @@ public class RobotMap {
 	public static int LEFT_MOTOR = 0;
 	public static int RIGHT_MOTOR = 1;
 	public static int ELEVATE_MOTOR1 = 2;
-	public static int ELEVATE_MOTOR2 = 3;
+	public static int INTAKE_MOTOR = 3;
 	
 	//DIO Ports
 	public static int ELEVATER_TOP_LIMIT = 0;
 	public static int ELEVATER_BOTTOM_LIMIT = 1;
+	public static int INTAKE_LIMIT = 2;
 	
 	//Joystick Ports
 	public static final int DRIVE_STICK_PORT = 0;

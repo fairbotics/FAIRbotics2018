@@ -45,9 +45,8 @@ public class OI {
 		driveStick1 = new Joystick(RobotMap.DRIVE_STICK_PORT);
 		
 		
-//		JoystickButton deployBlock = new JoystickButton(driveStick1, 1);
+		JoystickButton deployBlock = new JoystickButton(driveStick1, 1);
 //		JoystickButton liftRobotButton2 = new JoystickButton(driveStick1, 2);
-		
 		
 		
 //		liftRobotButton1.whileHeld(new LiftUp());
